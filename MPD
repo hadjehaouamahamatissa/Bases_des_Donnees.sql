@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analyse>
+<about>
+<release release="v0.80 - Cairns" />
+<company>
+<name>LYWOON SOFTWARE</name>
+<email>contact@analysesi.com</email>
+</company>
+</about>
+<module id="merise">
+<dictionnaire>
+<information code="ID_fournisseur_Fournisseur" nom="ID_fournisseur" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Nom_Fournisseur" nom="Nom" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Spécialité_Fournisseur" nom="Spécialité" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Condittion_payement_Fournisseur" nom="Condittion_payement" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="ID_employé_Employé" nom="ID_employé" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Nom_Employé" nom="Nom" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Tel_Employé" nom="Tel" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Adress_Employé" nom="Adress" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Poste_Employé" nom="Poste" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="ID_client_Client" nom="ID_client" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Tel_Client" nom="Tel" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Adress_Client" nom="Adress" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Nom_Client" nom="Nom" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Num_table_Table" nom="Num_table" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Capacité_Table" nom="Capacité" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Status_Table" nom="Status" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="ID_payement_Facture" nom="ID_payement" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="false" />
+<information code="Mode_payement_Facture" nom="Mode_payement" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Montant_Facture" nom="Montant" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Date_payement_Facture" nom="Date_payement" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="ID_commande_Commande" nom="ID_commande" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Date_heure_Commande" nom="Date_heure" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Type_Commande" nom="Type" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="ID_plat_Plat" nom="ID_plat" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Type_Plat" nom="Type" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Nombre_plat_Plat" nom="Nombre_plat" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="false" />
+<information code="Num_stock_Stock" nom="Num_stock" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="false" />
+<information code="Montant_Stock" nom="Montant" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="false" />
+<information code="Mode_payement_Entretenir" nom="Mode_payement" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="false" />
+<information code="Montant_Entretenir" nom="Montant" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="false" />
+<information code="Date_payement_Entretenir" nom="Date_payement" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="false" />
+<information code="ID_facture_Facture" nom="ID_facture" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Detail_plant_Facture" nom="Detail_plant" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="ID_ingredient_Ingredient" nom="ID_ingredient" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Nom_Ingredient" nom="Nom" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Quantité_Ingredient" nom="Quantité" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Prix_Ingredient" nom="Prix" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Description_Ingredient" nom="Description" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Zone_emplacement_Table" nom="Zone_emplacement" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Numéro_Table" nom="Numéro" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="ID_table_Table" nom="ID_table" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Description_Plat" nom="Description" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Prix_Plat" nom="Prix" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+<information code="Code_plat_Plat" nom="Code_plat" type="BIGINT_AUTO_INCREMENT" taille="0" utilise="true" />
+</dictionnaire>
+<mcd>
+<entite nom="Fournisseur" x="851" y="393">
+<information code="ID_fournisseur_Fournisseur" />
+<information code="Nom_Fournisseur" />
+<information code="Spécialité_Fournisseur" />
+<information code="Condittion_payement_Fournisseur" />
+</entite>
+<entite nom="Client" x="215" y="148">
+<information code="ID_client_Client" />
+<information code="Nom_Client" />
+<information code="Adress_Client" />
+<information code="Tel_Client" />
+</entite>
+<entite nom="Table" x="184" y="655">
+<information code="ID_table_Table" />
+<information code="Capacité_Table" />
+<information code="Status_Table" />
+<information code="Zone_emplacement_Table" />
+<information code="Numéro_Table" />
+<information code="Num_table_Table" />
+</entite>
+<entite nom="Employé" x="664" y="610">
+<information code="ID_employé_Employé" />
+<information code="Nom_Employé" />
+<information code="Tel_Employé" />
+<information code="Adress_Employé" />
+<information code="Poste_Employé" />
+</entite>
+<entite nom="Plat" x="1386" y="400">
+<information code="ID_plat_Plat" />
+<information code="Type_Plat" />
+<information code="Description_Plat" />
+<information code="Prix_Plat" />
+<information code="Code_plat_Plat" />
+</entite>
+<entite nom="Commande" x="657" y="158">
+<information code="ID_commande_Commande" />
+<information code="Date_heure_Commande" />
+<information code="Type_Commande" />
+</entite>
+<entite nom="Facture" x="1286" y="153">
+<information code="ID_facture_Facture" />
+<information code="Date_payement_Facture" />
+<information code="Mode_payement_Facture" />
+<information code="Montant_Facture" />
+<information code="Detail_plant_Facture" />
+</entite>
+<association nom="Servir" x="667" y="412">
+</association>
+<association nom="Contenir" x="994" y="297">
+</association>
+<association nom="Consommer" x="946" y="195">
+</association>
+<association nom="Reserver" x="199" y="433">
+</association>
+<association nom="Fournir" x="1132" y="425">
+</association>
+<association nom="Passer" x="427" y="182">
+</association>
+<association nom="Controler" x="1094" y="544">
+</association>
+<entite nom="Ingredient" x="1327" y="618">
+<information code="ID_ingredient_Ingredient" />
+<information code="Nom_Ingredient" />
+<information code="Quantité_Ingredient" />
+<information code="Prix_Ingredient" />
+<information code="Description_Ingredient" />
+</entite>
+<lien cardmin="1" cardmax="N" elem1="Reserver" elem2="Client" />
+<lien cardmin="0" cardmax="N" elem1="Reserver" elem2="Table" />
+<lien cardmin="1" cardmax="N" elem1="Passer" elem2="Client" />
+<lien cardmin="1" cardmax="1" elem1="Passer" elem2="Commande" />
+<lien cardmin="1" cardmax="1" elem1="Consommer" elem2="Commande" />
+<lien cardmin="1" cardmax="N" elem1="Consommer" elem2="Facture" />
+<lien cardmin="1" cardmax="1" elem1="Servir" elem2="Commande" />
+<lien cardmin="0" cardmax="N" elem1="Servir" elem2="Employé" />
+<lien cardmin="1" cardmax="1" elem1="Contenir" elem2="Commande" />
+<lien cardmin="1" cardmax="N" elem1="Contenir" elem2="Plat" />
+<lien cardmin="1" cardmax="N" elem1="Fournir" elem2="Fournisseur" />
+<lien cardmin="1" cardmax="N" elem1="Fournir" elem2="Plat" />
+<lien cardmin="1" cardmax="N" elem1="Controler" elem2="Fournisseur" />
+<lien cardmin="1" cardmax="N" elem1="Controler" elem2="Ingredient" />
+</mcd>
+</module>
+</analyse>
